@@ -1,0 +1,28 @@
+/**************************************************** 
+    MEDIA QUERY FOR PORTRAIT MOBILE SCREEN 
+*****************************************************/
+@media only screen and (min-width:320px) and (max-width: 479px){
+    .todo_container{
+      width: 90vw;
+      height: 90vh;
+    }  
+    
+    .header h2{
+      font-size: 2rem;
+    }
+  
+    .content{
+      font-size: 1.8rem;
+    }
+  
+  }
+  
+  /**************************************************** 
+      MEDIA QUERY FOR TABLET SCREEN 
+  ****************************************************/
+  @media only screen and (min-width:768px) and (max-width: 979px){
+    .todo_container{
+      width: 60vw;
+      height: 80vh;
+    }
+  }
